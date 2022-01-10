@@ -1,0 +1,34 @@
+# ---------------------------------------------------
+# Name : Zamam Moeez
+# ID: 1665264
+# CMPUT 274 , Fall 2021
+#
+# Exercise 1: Password Validate
+# ---------------------------------------------------
+# Included Files:
+#     * passwordvalidate.py         
+#     * README
+#
+# Program definition:
+#
+#  Contains two functions, validate() and generate().
+#  
+#  validate() validates the security of a password taken as argument
+#  and returns the result as either "Secure", "Insecure" or "Invalid" based on certain parameters.
+#  
+#  generate() psuedo-randomnly generates a password of input argument n and returns password of length n that is
+#  considered "Secure" by parameters laid out in validate() function.
+#
+# Running instructions:
+# 
+#  type print(validate(input_password)) under if __name__ == "__main__": where input_password is 
+#  any string password to verify validity.
+#    
+#  type print(generate(n)) under if __name__ == "__main__": where n is the desired length 
+#  of the secure password. 
+#
+# References:
+#
+#  Help on the choice() function syntax and use was obtained 
+#  from https://www.geeksforgeeks.org/python-numbers-choice-function/
+#

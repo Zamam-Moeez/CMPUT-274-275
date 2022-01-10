@@ -1,0 +1,28 @@
+#--------------------------------------------
+#   Name: Zamam Moeez
+#   ID: 1665264
+#   CMPUT 274
+#
+#   Weekly Exercise 3: Word Frequency
+#-------------------------------------------- 
+# Included Files:
+#     * freq.py         
+#     * README
+#
+# Program definition:
+#
+#  Contains three functions, openreadsort(), occurence() and printwrite().
+#  
+#  openreadsort() reads text file entered as terminal argument, splits into a sorted list of words called words
+#  returns the list 'words'
+#
+#  occurence() calls openreadsort() and computes the number of occurences of each word from list words and stores these values as a dictionary 'occurs'
+#  and stores these values as a dictionary 'occurs',returns 'occurs'
+#
+#  printwrite() calls occurence(), creates list containing frequency of each word and writes result in desired format to output text file, file.out
+#
+# Running instructions:
+# 
+#  call printwrite() from under if __name__ == "__main__" and then call program freq.py with arguement text file from terminal
+#
+#

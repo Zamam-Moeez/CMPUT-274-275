@@ -1,0 +1,23 @@
+#--------------------------------------------
+#   Name: Zamam Moeez
+#   ID: 1665264
+#   CMPUT 274, Fall 2021
+#
+#   Weekly Exercise #4: Text Preprocessor
+#--------------------------------------------
+# Included Files:
+#
+# preprocess.py
+# README
+#
+# Program function:
+#
+# Takes input string and removes specific stop words, digits and punctuation and
+# outputs lower case string depending on the specific mode entered
+#
+# Running Instructions:
+#
+# Call program from terminal as python3 preprocess.py <mode> where mode can be keep-digits,
+# keep-stops, and keep-symbols.
+# Leaving mode empty would remove all digits, symbols and stop words.
+#

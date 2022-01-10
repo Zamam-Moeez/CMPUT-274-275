@@ -1,0 +1,25 @@
+# ---------------------------------------------------
+# Name : Zamam Moeez
+# ID: 1665264
+# CMPUT 274 , Fall 2021
+#
+# Exercise 2: Unfair Dice
+# ---------------------------------------------------
+# Included Files:
+#     * unfairDice.py         
+#     * README
+#
+# Program definition:
+#
+#  Contains two functions, biased_rolls(prob_list, s, n) and draw_histogram(m, rolls, width).
+#  
+#  biased_rolls(prob_list, s, n) has input arguements prob_list which is an array containing the probabilities
+#  of each side, s which is the seed value to be used to initialize the PRNG prior to calling random()
+#  and n is the number of time the dice must be rolled.
+#  The function returns the array rolls which contains the side of the die after each roll in the order
+#  that they occured.
+#
+#  draw_histogram(m, rolls, width) has input arguements m which is the number of sides on the die,
+#  rolls is the array containg the result of each roll in the order that the occured,  
+#  width is the number of hastags to be assigned to the most common occurence or most common side.
+
