@@ -1,0 +1,27 @@
+Name: Zamam Moeez
+SID: 1665264
+CCID: zamam
+CMPUT 275 , Winter 2022
+
+Exercise 5 Part 2: Matrix
+
+Included Files:
+    * we5_test.cpp
+    * matrix.cpp 
+    * matrix.h        
+    * README
+    * Makefile
+
+Program definition:
+
+we5_test.cpp takes queries from console and returns outputs based on methods defined in matrix.cpp and matrix.h
+
+matrix.h contains all docstring documentation pertaining to methods available
+matrix.cpp contains implementation of these methods
+
+Matrix class implememntation is based on a 2D float array
+
+Running Instructions:
+
+Run included Makefile along with suppoted queries using command "make"
+

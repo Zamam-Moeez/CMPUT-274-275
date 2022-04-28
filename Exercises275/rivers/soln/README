@@ -1,0 +1,39 @@
+Name: Zamam Moeez
+SID: 1665264
+CCID: zamam
+CMPUT 275 , Winter 2022
+
+Exercise 4 Part 1: Rivers
+
+Included Files:
+    * rivers.cpp         
+    * README
+
+Program definition:
+
+First line of input is the number of number of rivers n and the number of queries q
+
+Second line of input is a list of the rivers
+
+next q lines are the queries in the form u v, where u and v are the two
+rivers whose meeting point we must compute
+
+Program uses function int query(int* a, int n, int u, int v) to find the meeting point of each querie. int* a points to the first river a particular river joins.
+
+These are then printed in the order the queries are recived
+
+Running Instructions:
+
+Open terminal in the same folder as rivers.cpp
+
+use command g++ -o <executable> rivers.cpp
+
+use command ./<executable>
+
+Enter number of rivers n and queries q
+
+Enter n rivers
+
+Enter q queries in form u v
+
+Press enter and receive output

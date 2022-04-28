@@ -1,0 +1,28 @@
+Name: Zamam Moeez
+SID: 1665264
+CCID: zamam
+CMPUT 275 , Winter 2022
+
+Exercise 6 Part 1: Bash History
+
+Included Files:
+README
+bash_history.cpp
+
+Program definition:
+
+Takes bash commands of type ls, cd <directory>, and cd ..
+
+Prints bash history
+
+Running Instructions:
+
+Run included Makefile using make
+
+or use appropriate commands
+
+References:
+
+None
+
+

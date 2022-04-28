@@ -1,0 +1,51 @@
+Name: Zamam Moeez
+SID: 1665264
+CCID: zamam
+CMPUT 275 , Winter 2022
+
+Exercise 6 Part 2: Graph Concepts
+
+Included Files:
+graph_concepts.cpp
+digraph.cpp
+digraph.h
+edmonton-roads-2.0.1.txt
+README
+Makefile
+
+Program definition:
+
+void dfs(const Digraph & graph,const int u,const int prev, unordered_map < int, int > & reached):
+
+Function in graph_concepts.cpp, takes Digraph object graph, vertex u and previous vertex v along with an 
+unordered_map reached as arguements. Reached acts as a searchtree and holds vertices that have been visited when DFS algorithm is run.
+
+Code was reused from CMPUT275 Lecture 13 code and github
+
+unsigned int count_components(const Digraph & graph):
+
+Function in graph_concepts.cpp, takes Digraph& graph object as arguement and returns number of connected components in graph, count.
+
+Digraph read_city_graph_undirected():
+
+Reads data from stdin, if line starts with V, add vertex specified, if starts with E, add the edges formed by the 2 vertices in either direction. 
+Returns Digraph object graph
+
+main():
+
+returns number of connected components in a graph object
+
+Running Instructions:
+
+Run included Makefile using make run
+
+remove obj files using make clean
+
+References:
+
+Code reused for DFS:
+
+https://github.com/paullu-teach/C275.Winter.2022.Share.Class/blob/main/Lecture.13/dfs.cpp
+
+
+

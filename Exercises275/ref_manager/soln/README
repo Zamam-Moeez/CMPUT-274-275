@@ -1,0 +1,36 @@
+Name: Zamam Moeez
+SID: 1665264
+CCID: zamam
+CMPUT 275 , Winter 2022
+
+Exercise 3 Part 2: Reference Manager
+
+Included Files:
+    * we3_test.cpp
+    * ref_manager.cpp         
+    * README
+    * Makefile
+
+Program definition:
+
+we3_test.cpp takes certain queries, calls functions in ref_manager.cpp to handle those queries.
+ref_manager.cpp allocates and dealocates memory for strings.
+pointers[] is an an array of 100 pointers to strings
+garbage[] is an array of 100 pointers no longer referenced by pointers[]
+
+readString() takes two arguements, length and ptrIndex.
+It reads in string of length and reassigns pointer in pointers array at ptrIndex to the string
+
+reassignPointer() takes two arguements, ptrIndex and newAddr. It reassigns pointer in pointers array at ptrIndex
+to newAddr. It changes the reference count in unordered map refCount for string previously pointed to and the newly referenced string
+
+garbageCollect() goes through the garbage array, printing each string in the garbage array then freeing up memory
+
+destructor() goes throught pointers array, calls reassignPointer and reassigns each pointer to NULL then frees up memory
+by calling garbage collect
+
+Running Instructions:
+
+Run included Makefile along with suppoted queries
+
+

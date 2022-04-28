@@ -1,0 +1,23 @@
+ ---------------------------------------------------
+ Name : Zamam Moeez
+ ID: 1665264
+ CMPUT 275 , Winter 2022
+
+ Exercise 1: Twin Primes
+ ---------------------------------------------------
+ Included Files:
+     * twin_primes.cpp         
+     * README
+
+ Program definition:
+
+ Includes function isPrime() that returns boolean true or false if input n of type int
+ is prime or not prime respectively
+
+ Includes function twinPrime() of type void that takes input k of type int and prints
+ k twin prime pairs
+
+ In the main function, if input is "p num" then isPrime is run and if isPrime(num) returns
+ bool 1 it prints "prime" otherwise it prints "not prime"
+
+ If input is "t num" then twinPrimes(num) is run and num pairs of twin primes are printed

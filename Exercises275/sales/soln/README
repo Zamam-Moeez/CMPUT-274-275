@@ -1,0 +1,34 @@
+Name: Zamam Moeez
+SID: 1665264
+CCID: zamam
+CMPUT 275 , Winter 2022
+
+Exercise 3 Part 1: Sales
+
+Included Files:
+    * sales.cpp         
+    * README
+
+Program definition:
+
+First line of input is the number of unique items for sale and the target sale
+
+Second line of input is the price of each item
+
+Program checks if any pair of unique items exist such that the sum of their prices equals the target sale
+
+Prints "YES" it it exists, "NO" otherwise
+
+Running Instructions:
+
+Open terminal in the same folder as sales.cpp
+
+use command g++ -o <executable> sales.cpp
+
+use command ./<executable>
+
+Enter number of unique items n and target sale t
+
+Enter prices of n unique items, space seperated
+
+Press enter and receive output
